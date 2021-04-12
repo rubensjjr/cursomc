@@ -17,7 +17,7 @@ public class Categoria implements Serializable {
 	private Integer id;
 	private String nome;
 
-	private void Categoria() {
+	public Categoria() {
 	}
 
 	public Categoria(Integer id, String nome) {
@@ -67,4 +67,5 @@ public class Categoria implements Serializable {
 		return true;
 	}
 
+	
 }
